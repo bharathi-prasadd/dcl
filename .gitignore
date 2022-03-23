@@ -1,3 +1,4 @@
 #ignore all object files
 *.o
 githubkey
+*.h.gch
