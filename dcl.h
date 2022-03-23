@@ -15,7 +15,14 @@ extern char *types[];
 
 extern char *qualifiers[];
 
-extern enum {NAME, PARENS, BRACKET};
+enum token__ 
+{
+ NAME,
+ PARENS, 
+ BRACKET
+} ;
+
+extern enum token__ token___;
 
 extern char name[MAXTOKEN];
 extern char datatype[MAXTOKEN];
